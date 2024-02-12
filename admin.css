@@ -1,0 +1,177 @@
+#loginDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#loginDiv h1 {
+    margin-bottom: 20px;
+}
+
+#adminLogin {
+    background-color: white; /* Google blue */
+    color: #4285F4;
+    border: solid 2px #4285F4;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#adminLogin:hover {
+    border: solid 2px #0F9D58; /* Google green */
+}
+
+
+#adminHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+#adminHome h1 {
+    color: #4285F4; /* Google blue */
+}
+
+#adminHome button {
+    background-color: #4285F4; /* Google blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#adminHome button:hover {
+    background-color: #0F9D58; /* Google green */
+}
+
+#addAllergenDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+#addAllergenDiv h1 {
+    color: #4285F4; /* Google blue */
+}
+
+#addAllergenDiv button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4285F4; /* Google blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+#addAllergenDiv button:hover {
+    background-color: #0F9D58; /* Google green */
+}
+
+#addAllergenDiv #border {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#addAllergenDiv #controls {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+
+
+
+#removeAllergensDiv {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+#removeAllergensDiv h1 {
+    text-align: center;
+    color: #333;
+}
+
+#removeAllergensDiv input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#removeAllergensDiv button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4285F4; /* Google blue */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#removeAllergensDiv button:hover {
+    background-color: #357ae8; /* Google blue hover */
+}
+
+#allergenList {
+    margin-top: 20px;
+}
+
+#allergenList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#allergenList li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}

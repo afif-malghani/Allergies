@@ -1,0 +1,50 @@
+{
+    "manifest_version": 3,
+    "name": "AdvanLlergies",
+    "version": "1.0",
+    "description": "Allergies detection and prevention system by AdvanLogix",
+    "icons": {
+        "16": "images/icon16.png",
+        "128": "images/icon128.png"
+    },
+    "permissions": [
+        "identity",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "oauth2": {
+        "client_id": "313413442353-oo9lelugjuvf8jiu8oiqa9t13cl0ieau.apps.googleusercontent.com",
+        "scopes": [
+            ""
+        ]
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.carrefouruae.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "images/*"
+            ],
+            "matches": [
+                "https://www.carrefouruae.com/*"
+            ]
+        }
+    ]
+}
